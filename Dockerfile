@@ -10,5 +10,5 @@ RUN mv bootstrap-5.2.3 origin
 COPY overrides/ overrides/
 # Now switch to run time
 COPY ./build.sh /process/build.sh
-
-ENTRYPOINT /bin/bash
+RUN /bin/sh ./build.sh
+CMD ["cp", "-r", "dist/*", "/output"]
