@@ -6,3 +6,4 @@ cp -R ./overrides/ ./merged/
 mkdir ./dist/ # Outputs
 cd ./merged/
 sass ./scss/bootstrap.scss ../dist/bootstrap.css
+cd ..
