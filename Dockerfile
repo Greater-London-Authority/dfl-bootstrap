@@ -11,4 +11,4 @@ COPY overrides/ overrides/
 # Now switch to run time
 COPY ./build.sh /process/build.sh
 RUN /bin/sh ./build.sh
-CMD ["cp", "-r", "dist/*", "/output"]
+CMD ["cp", "-r", "/dist/*", "/output"]
