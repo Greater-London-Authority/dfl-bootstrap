@@ -20,9 +20,6 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
-$ldn-dark: #2a3135 !default;
-$ldn-grey: #353d42 !default;
-$ldn-light: #868b83 !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -51,6 +48,10 @@ $yellow:  #fff200 !default; // CIU
 $green:   #41a362 !default; // CIU
 $teal:    #57b8a8 !default; // Is Turquoise in CIU
 
+$ldn-dark: #2a3135 !default;
+$ldn-grey: #353d42 !default;
+$ldn-light: #868b83 !default;
+
 // Defined in Bootstrap but not CIU:
 $indigo:  #6610f2 !default; // not CIU
 $cyan:    #0dcaf0 !default; // Not CIU
@@ -78,7 +79,10 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "ldn-dark":   $ldn-dark,
+  "ldn-grey":   $ldn-grey,
+  "ldn-light":  $ldn-light
 ) !default;
 // scss-docs-end colors-map
 
