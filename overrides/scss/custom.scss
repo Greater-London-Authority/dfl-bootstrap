@@ -1,0 +1,41 @@
+// scss-docs-start color-variables
+$blue:    #007acc; // CIU
+$purple:  #96105E; // CIU
+$pink:    #e7135d; // CIU
+$red:     #eb001b; // CIU
+$orange:  #f36428; // CIU
+$yellow:  #fff200; // CIU
+$green:   #41a362; // CIU
+$teal:    #57b8a8; // Is Turquoise in CIU
+
+// Defined in Bootstrap but not CIU:
+$indigo:  #6610f2; // not CIU
+$cyan:    #0dcaf0; // Not CIU
+
+
+// Overrides of key values:
+$primary:   $purple;
+
+
+
+$custom-colors: (
+    'ldn-dark': #2a3135,
+    'ldn-grey': #353d42,
+    'ldn-light': #868b83,
+    'darkpink': #9e0059
+);
+
+
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+
+// Optional
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
