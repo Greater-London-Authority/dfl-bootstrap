@@ -3,6 +3,9 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+// Broad alignment with https://data.london.gov.uk/dataset/city-intelligence-data-design-guidelines intended
+// Note also https://getbootstrap.com/docs/5.3/customize/color/
+
 // Color system
 
 // scss-docs-start gray-color-variables
@@ -17,6 +20,9 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$ldn-dark: #2a3135 !default;
+$ldn-grey: #353d42 !default;
+$ldn-light: #868b83 !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
